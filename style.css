@@ -1,0 +1,65 @@
+/* style.css */
+
+/* Page Setup */
+@page {
+    size: A4;
+    margin: 1in;  /* Normal margins (1 inch) */
+}
+
+/* General Body Styling */
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Chapter Title Styling */
+h1 {
+    font-size: 24pt;
+    color: #2C3E50;  /* Dark Blue Color */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Section Title Styling */
+h2 {
+    font-size: 20pt;
+    color: #34495E;  /* Dark Grey */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 14pt;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Chapter Styling */
+.chapter {
+    page-break-before: always;
+    padding-top: 50px;
+}
+
+/* Optional Styling for Links, if needed */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
